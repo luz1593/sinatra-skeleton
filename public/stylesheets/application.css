@@ -1,0 +1,283 @@
+img{
+	width: 100%;
+	height: 255px;
+	overflow: hidden;
+	text-align: center;
+	padding: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+*{
+	position: center;
+	
+	font-family: Tahoma;
+}
+
+section{
+	width: 100%
+}
+
+a{
+	text-decoration: none;
+		color: white;
+}
+a:link{
+	text-decoration: none;
+		color: white;
+}
+
+a:hover{
+	color: white;
+}
+
+p{
+	text-align: left;
+}
+
+.col-md-2{
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+
+.col-md-3{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.col-md-4{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.col-md-8{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.col-md-6{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.container{
+	text-align: center;
+	
+}
+
+.well{
+	background-color: white;
+	padding: 0;
+	border: 0 white;
+	margin: 0;
+	position: relative;
+	border-radius: 0px;
+
+
+}
+
+.test{
+
+	background-color: white;
+	padding: 0;
+	border: 0 white;
+	margin: 0;
+	position: relative;
+	height: 75px;
+}
+.icons{
+	width: 30px;
+	height: 30px;
+}
+.icons1{
+	width: 20px;
+	height: 20px;
+}
+
+.main_icon{
+	width: 55px;
+	height: 55px;
+	margin-right: 5px;
+	margin-left: 20px;
+	margin-top: 5px;
+
+}
+
+.personal_contact{
+	background-color: #68A322;
+	height: 220px;
+	font-size: 5px;
+	color: white;
+	padding: 20px;
+	margin-right: 0;
+	margin-top: 20px;
+	margin-left: 100px;
+	border-radius: 20px;
+
+}
+
+.row-icons{
+	width: 50px;
+	height: 50px;
+}
+
+
+.row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+.education-logo{
+	width: 100px;
+	height: 120px;
+}
+
+.rank{
+	width: 20px;
+	height: 20px;
+}
+
+.show_on_hover {
+	display: none; 
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 255px;
+    opacity: 0.7;
+    z-index: 1;
+    color: black;
+    background-color: white;
+    padding-top: 108px;
+}
+
+.show_on_hover.large {
+ 	height: 510px;
+ 	width: 100%;
+}
+
+#profile{
+	height: 510px;
+	width: 100%;
+	margin-right: 0;
+	
+
+}
+
+#logo{
+	width: 160px;
+	height: 160px;
+	position: relative;
+	margin-left: 0px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#luz{
+	padding-top: 10px;
+	font-size: 45px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	padding-left: 10px;
+	margin-left: 10px;
+	text-align: left;
+}
+
+#title{
+	font-size: 25px;
+	padding-top: 0;
+	margin-top: 5px;
+	padding-left: 10px;
+	margin-left: 10px;
+	text-align: left;
+}
+
+#menu{
+	background-color: #68A322;
+	color: white;
+	font-size: 15px;
+	border-radius: 15px;
+
+}
+
+#submit{
+	margin: 0 auto;
+	margin-top: 10px;
+	background-color:  #68A322;
+	border-color: #68A322;
+	width: 70px;
+	height:20px:;
+	color: white;
+}
+
+#contact{
+	width: 530px;
+	height: 310px;
+	text-align: center;
+	position: relative;
+	padding: 20px;
+
+
+}
+
+#contact div input{
+	color: #68A322;
+	border: solid 2px #68A322;
+	width: 400px;
+	margin-bottom: 10px;
+}
+
+#contact div label{
+	display: inline-block;
+	text-align: right;
+	width: 80px;
+}
+#label_contact{
+	
+	font-size: 27px;
+	text-align: left;
+	margin-left: 0;
+
+	}
+#message{
+	height: 100px;
+	word-break: break-word;
+}
+
+
+#profile_content{
+	color: #68A322;
+}
+
+#interest{
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+#ubc{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#nus{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+#uni{
+	margin-bottom: 20px;
+}
+
+#video{
+	height: 390px;
+}
+
+#women{
+	margin-top: 20px;
+}
+
+#year{
+	text-align: right;
+}
