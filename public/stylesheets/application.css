@@ -160,6 +160,11 @@ p{
  	width: 100%;
 }
 
+.circular-image{
+	border-radius: 50%;
+}
+
+
 #profile{
 	height: 510px;
 	width: 100%;
