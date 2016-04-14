@@ -13,7 +13,7 @@ img{
 *{
 	position: center;
 	
-	font-family: Tahoma;
+	font-family: palatino;
 }
 
 section{
@@ -22,19 +22,21 @@ section{
 
 a{
 	text-decoration: none;
-		color: white;
+		color: black;
 }
 a:link{
 	text-decoration: none;
-		color: white;
+		color: #717171;
 }
 
 a:hover{
-	color: white;
+	color: #717171;
 }
 
 p{
 	text-align: left;
+	font-size: 12px;
+	color: #524e4e;
 }
 
 .col-md-2{
@@ -164,7 +166,131 @@ p{
 	border-radius: 50%;
 }
 
+.pic_title{
+	text-align: center;
+	color: #2d2727;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: palatino;
+}
+.phrase{
+	text-align: center;
+	font-family: palatino;
+	font-size: 18px;
+	color: #524e4e;
+}
 
+.indextitle{
+	font-family: palatino;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+
+.indextext{
+	color: #fff;
+	font-family: palatino;
+	font-size: 16px;
+	text-align: center;
+	padding: 15px;
+	margin:10px;
+}
+
+.projectlogo{
+	width: 150px;
+	height: 150px;
+	margin-top: 30px;
+}
+
+#nobackground{
+
+	height: 550px;
+	
+}
+
+#salut{
+	height: 120px;
+
+}
+
+#message{
+	font-family: palatino;
+	font-size: 16px;
+	text-align: center;
+
+}
+
+#indexlogos{
+
+	width: 70px;
+	height: 70px;
+	text-align: center;
+}
+#head_ubc{
+	text-align: center;
+	font-family: palatino;
+	font-size: 20px;
+	color: #2d2727;
+}
+#ss{
+	
+	font-family: helvetica;
+	font-size: 12px;
+	padding-left: 100px;
+}
+
+#trek{
+	padding-right: 100px;
+}
+
+#skills{
+	color: #d9a31b;
+	font-size: 13px;
+	font-family: palatino;
+}
+
+#headcol{
+	height: 200px;
+}
+
+#barramenu{
+	height: 50px;
+	margin-top: 15px;
+	text-align: right;
+}
+#unibc{
+	width: 180px;
+	height: 200px;
+}
+#hootlogo{
+	width: 150px;
+	height: 200px;
+}
+#headline{
+	text-align: left;
+}
+#photoheadline{
+	width: 235px;
+	height: 270px;
+	text-align: left;
+}
+
+#line{
+	height: 80px;
+	position: center;
+	text-align: right;
+	float: right;
+	margin-top: 30px;
+}
+
+#social{
+	background-color: #d9a31b;
+	height: 70px;
+	
+	text-align: right;
+
+}
 #profile{
 	height: 510px;
 	width: 100%;
@@ -202,10 +328,11 @@ p{
 }
 
 #menu{
-	background-color: #68A322;
-	color: white;
+	background-color: white;
+	color: #000;
 	font-size: 15px;
-	border-radius: 15px;
+	text-align: center;
+	font-family: helvetica;
 
 }
 
@@ -226,6 +353,9 @@ p{
 	position: relative;
 	padding: 20px;
 
+}
+
+#contactform{
 
 }
 
@@ -248,7 +378,7 @@ p{
 	margin-left: 0;
 
 	}
-#message{
+message{
 	height: 100px;
 	word-break: break-word;
 }

@@ -12,27 +12,29 @@
 </head>
 <body>
 
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJSFFB"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NJSFFB');</script>
-<!-- End Google Tag Manager -->
 
- <div class="title_contact">
-        <div class="row">
-        	<div class="col-md-1"><img src="/images/main_contact.png" class="main_icon"></div>
-        	<div class="col-md-11"><h2 id="label_contact">Contact</h2></div>
-        </div>
-  </div>
-
-<div class="body_contact">
+<div class="container">
 	<div class="row">
-		<div class="col-md-6">
-			<form method="POST" action="MAILTO:luz.andrea93@gmail.com" enctype="text/plain" id="contact">
+	<div class="col-xs-12 col-md-8" id="contactform">
+
+		<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+			<div class="row">
+				<label for="name">Name</label><br />
+				<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+			</div>
+			<div class="row">
+				<label for="email">Email</label><br />
+				<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+			</div>
+			<div class="row">
+				<label for="message">Message</label><br />
+				<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+			</div>
+			<input type="submit" class='button' value="Connect!" onclick="window.location.href='mailto:luz.andrea93@gmail.com'">
+		</form>
+	</div>
+			
+			<!--<form method="POST" action="MAILTO:luz.andrea93@gmail.com" enctype="text/plain" id="contact">
 	
 			<div>
 				<label for="name">Name</label>
@@ -55,19 +57,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<input type="submit" class="btn btn-info" id="submit"/>
 			</form>
 		</div>
+		<div class="col-xs-6 col-md-4">
+			<br/><br/>
+			<h1> Have a question?</h1>
+			<h5> Feel free to fill out this form or connect through any of my social networks</h5>
 
-		<div class="col-md-6">
-			<div class="personal_contact">
-				<div id="telephone">
-					<img src="/images/iphone.png" class="main_icon">
-					<h5>+1(604) 828-7241</h5>
-				</div>
-				<div id="emailme">
-					<img src="/images/laptop.png" class="main_icon">
-					<h5>luz.andrea93@gmail.com</h5>
-				</div>
-			</div>
-		</div>
+		</div>-->
+		
 	</div>
 </div>	
 

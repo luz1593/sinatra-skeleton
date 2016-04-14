@@ -1,8 +1,6 @@
 
 # Homepage (Root path)
 
-
-
 get '/' do
   erb :index
 end
@@ -30,9 +28,31 @@ post '/contact' do
   end
 end 
 
-get '/profile' do
-  erb :profile
+
+get '/ubc' do
+  erb :ubc
 end
+
+get '/nus' do
+  erb :nus
+end
+
+get '/others' do
+  erb :others
+end
+
+get '/vfw' do
+  erb :vfw
+end
+
+get '/artstarts' do
+  erb :artstarts
+end
+
+get '/purpledirt' do
+  erb :purpledirt
+end
+
 
 get '/education' do
   erb :education
@@ -44,4 +64,8 @@ end
 
 get '/projects' do
   erb :projects
+end
+
+get '/work' do
+  erb :work 
 end
