@@ -205,9 +205,11 @@ p{
 
 #chat{
 	font-size: 20px;
-	text-align: center;
-	padding: 10px;
-	margin: 10px;
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 100px;
+	padding-top: 10px;
+	font-family: palatino;
 }
 #credits{
 	text-align: center;
