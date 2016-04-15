@@ -203,6 +203,16 @@ p{
 	margin-top: 30px;
 }
 
+#chat{
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+#credits{
+	text-align: center;
+	font-size: 10px;
+}
 #nobackground{
 
 	height: 550px;
