@@ -22,15 +22,15 @@ section{
 
 a{
 	text-decoration: none;
-		color: black;
+		color: #d9a31b;
 }
 a:link{
 	text-decoration: none;
-		color: #717171;
+		color: #d9a31b;
 }
 
 a:hover{
-	color: #717171;
+	color: #d9a31b;
 }
 
 p{
@@ -203,6 +203,13 @@ p{
 	margin-top: 30px;
 }
 
+.brandlogo{
+	width: 90px;
+	height: 80px;
+	margin-top: 20px;
+	text-align: center;
+}
+
 #chat{
 	font-size: 20px;
 	text-align: left;
@@ -230,6 +237,7 @@ p{
 	font-family: palatino;
 	font-size: 16px;
 	text-align: center;
+	padding: 10px;
 
 }
 
@@ -263,17 +271,17 @@ p{
 }
 
 #headcol{
-	height: 200px;
+	height: 170px;
 }
 
 #barramenu{
 	height: 50px;
-	margin-top: 15px;
+
 	text-align: right;
 }
 #unibc{
-	width: 180px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
 }
 #hootlogo{
 	width: 150px;
@@ -299,6 +307,7 @@ p{
 #social{
 	background-color: #d9a31b;
 	height: 70px;
+	width: 100%;
 	
 	text-align: right;
 
