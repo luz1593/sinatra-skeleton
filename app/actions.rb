@@ -29,34 +29,10 @@ post '/contact' do
 end 
 
 
-get '/ubc' do
-  erb :ubc
+get '/school' do
+  erb :school
 end
 
-get '/nus' do
-  erb :nus
-end
-
-get '/others' do
-  erb :others
-end
-
-get '/vfw' do
-  erb :vfw
-end
-
-get '/artstarts' do
-  erb :artstarts
-end
-
-get '/purpledirt' do
-  erb :purpledirt
-end
-
-
-get '/education' do
-  erb :education
-end
 
 get '/experience' do
   erb :experience
@@ -66,6 +42,3 @@ get '/projects' do
   erb :projects
 end
 
-get '/work' do
-  erb :work 
-end
