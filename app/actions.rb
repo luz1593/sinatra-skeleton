@@ -38,7 +38,12 @@ get '/experience' do
   erb :experience
 end
 
-get '/projects' do
-  erb :projects
+get '/travel' do
+  erb :travel
 end
+
+get '/skills' do
+  erb :skills
+end
+
 
