@@ -5,8 +5,8 @@ get '/' do
   erb :index
 end
 
-get '/contact' do
-    erb :contact
+get '/sayhi' do
+    erb :sayhi
 end
 
 post '/contact' do
