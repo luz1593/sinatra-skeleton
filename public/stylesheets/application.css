@@ -181,7 +181,7 @@ p{
 	color: #fff;
 	font-family: helvetica;
 	font-size: 16px;
-	text-align: center;
+	text-align: justify;
 	padding: 15px;
 	margin:10px;
 }
@@ -213,7 +213,8 @@ p{
 }
 #luzalvaradoheadshot{
 
-	height: 550px;
+	height: 600px;
+	width: 95%;
 	
 }
 
@@ -225,7 +226,7 @@ p{
 #message{
 	font-family: helvetica;
 	font-size: 16px;
-	text-align: center;
+	text-align: justify;
 	padding: 10px;
 	line-height: 1.5;
 
